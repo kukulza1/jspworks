@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>실습예제</title>
+</head>
+<body>
+  <%
+  
+   int n=2;
+  int abc(n){
+  if(n%2 == 0){
+	  out.print(n+"은 짝수입니다");
+  }else{
+	  out.print(n+"은 홀수입니다");
+  }
+	  
+  }
+	  
+  %>
+  <p><%=abc() %></p>
+</body>
+</html>
