@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+int n =0;
+String result;
+public String calc(){
+ 
+  if(n%2 == 0){
+	  result ="짝수입니다";
+  }else{
+	  result="홀수입니다.";
+  }
+}
+%>

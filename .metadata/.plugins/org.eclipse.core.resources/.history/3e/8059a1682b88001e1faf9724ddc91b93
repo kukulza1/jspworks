@@ -1,0 +1,22 @@
+package bean;
+
+import java.io.Serializable;
+
+public class LoginBean implements Serializable {
+
+	private static final long serialVersionUID = 2L;
+	
+	private String uid;
+	private String pw;
+	
+	final String _uid = "today";
+	final String _pw = "1234";
+	
+	//로그인체크메서드
+	public boolean checkuser() {
+		if(uid.equals(_uid)&&pw.equals(_pw)) {
+			
+		}
+	}
+
+}

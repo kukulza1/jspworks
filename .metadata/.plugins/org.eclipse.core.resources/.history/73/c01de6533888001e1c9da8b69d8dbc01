@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+
+String n1 =request.getParameter("n");
+
+int n = Integer.parseInt(n1);
+
+String result="";
+
+if(n1== ""){
+	out.print("<script>");
+	out.print("alert('숫자를입력해주세요')");
+	out.print("<script>");
+	out.print("</script>");
+}else{
+  if(n%2 == 0){
+	  result ="짝수";
+  }else{
+	  result="홀수";
+  }
+}
+%>
+<p>결과는<%=result %>입니다.</p>
